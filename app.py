@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnableSequence,RunnableParallel,RunnableP
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-#from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 import tempfile
 load_dotenv()
 st.set_page_config(page_title="Best Quotation Recommender", page_icon="💬")
